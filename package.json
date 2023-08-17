@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Adding bundler",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,6 +18,8 @@
   },
   "homepage": "https://github.com/MuhammadAsifHossain/Simple-react-navbar-table#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
